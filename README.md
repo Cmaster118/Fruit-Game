@@ -11,14 +11,19 @@ EAST
 SOUTH
 WEST
 TAKE
-PASS</pre>
+PASS
+</pre>
 This is a very simple, albeit not very smart, robot (a.k.a. known as "EASTBOT"):
 
-<pre><code>
+<pre>
+<code>
 function make_move() {
 	return EAST;
 }
-</code></pre>
+</code>
+</pre>
+
+
 A more fully-fledged example implementation is called random bot and comes with source code.
 
 Bots have a number of functions they can call to enquire the state of the board, the position of the enemy player, the number of fruits left etc.
